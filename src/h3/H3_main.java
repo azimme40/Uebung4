@@ -11,8 +11,8 @@ public class H3_main {
 		fahrenheitFloat = celsiusFloat*9/5+32;
 		
 		fahrenheitDouble = celsiusDouble* 9/5 +32;
-		System.out.println( celsiusFloat +" sind " + fahrenheitFloat +" fahrenheit");
-		System.out.println( celsiusDouble +" sind " + fahrenheitDouble +" fahrenheit");
+		System.out.println( "Float:" + celsiusFloat +" sind " + fahrenheitFloat +" fahrenheit");
+		System.out.println( "Double:" + celsiusDouble +" sind " + fahrenheitDouble +" fahrenheit");
 	}
 
 }
